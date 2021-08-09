@@ -29,7 +29,7 @@ module.exports = (on, config) => {
             user = {
                 username: faker.name.firstName(),
                 email: faker.internet.email(),
-                password: "SuperSecret",
+                password: "PaS$W0rd123",
             };
             return user;
         },
